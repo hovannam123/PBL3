@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="916a536638b24ff1b3a0a98eb2797e32" Name="Diagram1" ZoomLevel="61">
+        <EntityTypeShape EntityType="N3KTeamModel.tblChiTietHoaDonBanHang" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblChiTietHoaDonNhapHang" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblHangHoa" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblHoaDonBanHang" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblHoaDonNhapHang" Width="1.5" PointX="6" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblKhachHang" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblLoaiHangHoa" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblNhaCungCap" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblNhaSanXuat" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblChiTie__MaHan__703EA55A" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblChiTie__MaHoa__6F4A8121" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblChiTie__MaHan__78D3EB5B" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblChiTie__MaHoa__77DFC722" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHangHo__MaLoa__65C116E7" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHangHo__MaNha__67A95F59" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHoaDon__MaKha__6D6238AF" ManuallyRouted="false" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHoaDon__MaNha__75035A77" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="N3KTeamModel.sysdiagram1" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="N3KTeamModel.tblNguoiDung" Width="1.5" PointX="0.75" PointY="11" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHoaDon__MaNha__6C6E14761" />
+        <AssociationConnector Association="N3KTeamModel.FK__tblHoaDon__MaNha__75F77EB01" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
